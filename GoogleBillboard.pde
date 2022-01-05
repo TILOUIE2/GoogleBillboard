@@ -18,10 +18,10 @@ public void draw()
 {   
   //not needed for this assignment
 }  
-public boolean isPrime(double num)  
+public boolean isPrime(double dNum)  
 {   
-  for(int i = 2; i <= Math.sqrt(num); i++){
-    if(num > 1 && num%i == 0){
+  for(int i = 2; i <= Math.sqrt(dNum); i++){
+    if(dNum > 1 && dNum%i == 0){
       return false;
     }
   }
